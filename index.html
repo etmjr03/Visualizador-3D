@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visualizador 3D</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
     <h1>Visualizador 3D</h1>
+
+    <h2>Visualize a cadeira em 3D</h2>
+
+    <p>
+        Também é possível visualizar a cadeira em sua sala utilizando sua câmera.
+        <p>
+            posicione sua câmera para onde deseja visualizar a cadeira e veja o resultado.
+        </p>
+    </p>
+
+    <model-viewer
+    class="img-cadeira"
+    ar
+    ar-modes="scene-viewer quick-look webxr"
+    ar-scale="auto"
+    ar-placement="floor"
+    src="./assets/jet10.glb"
+    ios-src="./assets/jet10.usdz"
+    poster=""
+    shadow-intensity="1"
+    reveal="auto"
+    camera-controls
+    auto-rotate
+    >
+    </model-viewer>
 </body>
 </html>
