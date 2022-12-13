@@ -16,3 +16,4 @@ Propriedades do Model-Viewer
 - camera-controls: libera os controles da câmera.
 - auto-rotate: após iniciar o modelo 3D ele irá rotacionar em seu eixo.
 - disable-zoom: desabilita o zoom no modelo 3D com o mouse.
+- slot: adiciona função de AR somente em versão mobile, usa como valor ar-button para atribuir para um botão.
